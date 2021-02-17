@@ -1,0 +1,60 @@
+/****************/
+/* Content List */
+// 1. Welcome
+// 2. Form
+/****************/
+
+//Welcome
+#viewWelcome {
+    .custom-panel {
+        background: $white;
+        width: 100%;
+        height: auto;
+        @include box-shadow($top: 1px, $left: 5px, $blur: 4px, $color: #00000029, $inset: "");
+        padding: rem(30px);
+        @include radius($border-top-left:rem(4px), $border-top-right:rem(4px), $border-bottom-left:rem(4px), $border-bottom-right:rem(4px));
+        .title-xl {
+            color: $grey-70;
+            font-weight: 600;
+        }
+        .span-xl {
+            color: $grey-65;
+            font-weight: 600;
+        }
+        .span-md, .p-md {
+            color: $grey-58;
+        }
+        .btn-primary {
+            background: $btn-primary;
+            border-color: $btn-primary;
+            width: 100%;
+            height: rem(40px);
+            font-size: rem(14px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .title-xs {
+            color:$text-primary;
+            font-weight: 600;
+        }
+
+        hr {
+            border-top: 1px solid rgba(123, 81, 77);
+        }
+
+        .custom-list {
+            list-style: none;
+
+            li:last-child {
+                span {
+                    font-size: rem(16px);
+                    color:$text-primary;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+}

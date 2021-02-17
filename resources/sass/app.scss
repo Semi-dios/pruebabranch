@@ -1,0 +1,21 @@
+// Fonts
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+
+
+/* Rem */
+@import "node_modules/sass-rem/rem";
+$sass-fallback: true;
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Style
+
+@import 'styles'

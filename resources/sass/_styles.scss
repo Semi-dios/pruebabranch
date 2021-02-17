@@ -1,0 +1,76 @@
+/****************/
+/* Content List */
+// 1. Layout
+// 2. Landing Page
+/****************/
+
+
+/* Mixin */
+
+@import 'mixin';
+
+
+
+/* Background */
+.bg-beige{
+    background-color: $body-bg;
+    font-family: $font-family-sans-serif;
+}
+
+/* Text */
+.title-xl {
+    font-size:rem(28px);
+}
+.title-lg {
+    font-size:rem(24px);
+}
+.title-md {
+    font-size:rem(18px);
+}
+.title-sm {
+    font-size:rem(16px);
+}
+.title-xs {
+    font-size:rem(14px);
+}
+
+.span-xl {
+    font-size:rem(20px);
+}
+.span-lg {
+    font-size:rem(18px);
+}
+.span-md {
+    font-size:rem(14px);
+}
+.span-sm {
+    font-size:rem(12px);
+}
+.span-sm {
+    font-size:rem(10px);
+}
+
+.p-xl {
+    font-size:rem(20px);
+}
+.p-lg {
+    font-size:rem(18px);
+}
+.p-md {
+    font-size:rem(14px);
+}
+.p-sm {
+    font-size:rem(12px);
+}
+.p-sm {
+    font-size:rem(10px);
+}
+
+
+/* 1. Layout */
+@import './partials/header';
+@import './partials/footer';
+
+
+/* 2. Landing */
+@import './partials/content';
